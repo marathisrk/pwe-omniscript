@@ -1,0 +1,61 @@
+[
+    {
+        "FormulaExpression": "(PriceBookEntry:CustomLWC6:Products:selectedprods:PbeUnitPrice)*(PriceBookEntry:CustomLWC6:Products:selectedprods:Qty)",
+        "FormulaResultPath": "PriceBookEntry:CustomLWC6:Products:selectedprods:Subtotal",
+        "FormulaSequence": 1,
+        "GlobalKey": "DRTFAddProducts039371485511404236",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTFAddProducts",
+        "OmniDataTransformationId": {
+            "Name": "DRTFAddProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTFAddProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRTFAddProducts7275483845801809",
+        "InputFieldName": "PriceBookEntry:CustomLWC6:Products:selectedprods",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTFAddProducts",
+        "OmniDataTransformationId": {
+            "Name": "DRTFAddProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTFAddProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "selectedprods",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DRTFAddProducts5130482846562778",
+        "InputFieldName": "PriceBookEntry:CustomLWC6:Products:selectedprods:Subtotal",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTFAddProducts",
+        "OmniDataTransformationId": {
+            "Name": "DRTFAddProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTFAddProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "selectedprods:Subtotal",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

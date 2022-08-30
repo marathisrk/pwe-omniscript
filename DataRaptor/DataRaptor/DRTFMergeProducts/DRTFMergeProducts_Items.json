@@ -1,0 +1,22 @@
+[
+    {
+        "GlobalKey": "DRTFMergeProducts5648532079145667",
+        "InputFieldName": "ListOutput",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DRTFMergeProducts",
+        "OmniDataTransformationId": {
+            "Name": "DRTFMergeProducts",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DRTFMergeProducts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "summaryproducts:ep",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

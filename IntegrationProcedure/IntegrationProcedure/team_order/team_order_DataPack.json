@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "team_order_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "addtocart",
+    "OmniProcessElement": [
+        "team_order_Element_DataRaptorTransformAction1.json",
+        "team_order_Element_ListAction2.json",
+        "team_order_Element_CopyEstimatedProductsToCart.json",
+        "team_order_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "team_order",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "team_order_PropertySetConfig.json",
+    "SubType": "order",
+    "Type": "team",
+    "UniqueName": "team_order_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/order/Procedure",
+    "WebComponentKey": "ceb852d0-0de7-f582-3c39-2c88be7f42c9"
+}

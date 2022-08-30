@@ -1,0 +1,28 @@
+{
+    "AuthorName": "PWC",
+    "ClonedFromOmniUiCardKey": "productListestimate/PWC/1.0/1642431138763",
+    "DataSourceConfig": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "EstimatedProductList",
+    "Namespace": "",
+    "OmniUiCardKey": "EstimatedProductList/PWC/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "EstimatedProductList.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "EstimatedProductList_PWC_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/EstimatedProductList"
+}
